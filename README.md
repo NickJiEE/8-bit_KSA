@@ -118,7 +118,7 @@ _Captured layout view of the synthesized adder._
 - Continue transistor sizing optimization for better power-delay tradeoffs.
 
 ## References
-- Ramasamy, Senthil G. “Design and Analysis of Kogge-Stone and Han-Carlson Adders in 130nm CMOS Technology”. International Journal of Research, Vol. 05(07), 2018. [Link to Paper](https://www.researchgate.net/publication/344955631_Design_and_Analysis_of_Kogge-Stone_and_Han-Carlson_Adders_in_130nm_CMOS_Technology)
+- Ramasamy, Senthil G. “Design and Analysis of Kogge-Stone and Han-Carlson Adders in 130nm CMOS Technology”. _International Journal of Research_, Vol. 05(07), 2018. [Link to Paper](https://www.researchgate.net/publication/344955631_Design_and_Analysis_of_Kogge-Stone_and_Han-Carlson_Adders_in_130nm_CMOS_Technology)
 
 © 2025 Nick Ji
 
