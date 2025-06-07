@@ -57,13 +57,13 @@ _Computes ```Gi:j = Gi + PiGj and Pi:j = PiPj``` using AOI21 and XOR logic._
 
 _Used at early tree stages to reduce need for output inverters._
 
-![Non-Inverted Inputs BC](./figures/KSA_BC_noninv.png)
+![Non-Inverted Inputs BC](./figures/KSA_BC_inv.png)
 
 3. **Black Cell Variant B (Inverting Inputs, Non-Inverting Outputs)**
 
 _Allows alternating stages to cancel inversions._
 
-![Inverted Inputs BC](./figures/KSA_BC_inv.png)
+![Inverted Inputs BC](./figures/KSA_BC_noninv.png)
 
 4. **Propagate-Generate Cell**
 
