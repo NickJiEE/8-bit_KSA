@@ -98,4 +98,5 @@ Captured layout view of the synthesized adder.
 - Ramasamy, Senthil G. “Design and Analysis of Kogge-Stone and Han-Carlson Adders in 130nm CMOS Technology”. International Journal of Research, Vol. 05(07), 2018.
 
 © 2025 Nick Ji
+
 For educational and demonstration purposes.
