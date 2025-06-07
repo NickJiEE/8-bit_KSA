@@ -22,7 +22,7 @@ This project implements an 8-bit parallel-prefix adder using the Kogge-Stone arc
   - AND logic for generate
 
 - **Black Cell Variants**
-  - _Standard Black Cell_: Computes ```Gi:j = Gi + PiGj and Pi:j = PiPj```
+  - _Standard Black Cell_: Computes ```Gi:j = Gi + PiGj and Pi:j = Pi ⋅ Pj```
   - _Non-Inverting Input Black Cell_: Produces inverted outputs
   - _Inverting Input Black Cell_: Produces non-inverted outputs
 
@@ -30,7 +30,7 @@ This project implements an 8-bit parallel-prefix adder using the Kogge-Stone arc
   - Computes group generate only for efficient edge cases
 
 - **Sum Logic**
-  - Computes ```Sum[i] = Pi XOR Ci```
+  - Computes ```Sum[i] = Pi ⊕ Ci```
 
 ### Functional Components
 - Piecewise Linear (PWL) sources used to simulate real-world signal transitions
