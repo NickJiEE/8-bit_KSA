@@ -51,30 +51,47 @@ This project implements an 8-bit parallel-prefix adder using the Kogge-Stone arc
 
 _Computes ```Gi:j = Gi + PiGj and Pi:j = PiPj``` using AOI21 and XOR logic._
 
+![Standard BC](./figures/KSA_BC.png)
+
 2. **Black Cell Variant A (Non-Inverting Inputs, Inverting Outputs)**
 
 _Used at early tree stages to reduce need for output inverters._
+
+![Non-Inverted Inputs BC](./figures/KSA_BC_noninv.png)
 
 3. **Black Cell Variant B (Inverting Inputs, Non-Inverting Outputs)**
 
 _Allows alternating stages to cancel inversions._
 
+![Inverted Inputs BC](./figures/KSA_BC_inv.png)
+
 4. **Propagate-Generate Cell**
 
 _Produces initial P and G signals from input bits A and B._
+
+![PG Cell](./figures/KSA_PG_cell.png)
 
 5. **Complete 8-bit Kogge-Stone Adder**
 
 _Full adder assembled using all cell types._
 
+![8 Bit KSA](./figures/8-bit_KSA.png)
+
 6. **Testbench Waveforms**
 
   - (a) Ripple-Carry Adder waveform at 3.4 GHz
+
+![RCA Critical Inputs 3.4GHz](./figures/RCA Critical Input Pair 3.4GHz.png)
+
   - (b) 8-bit KSA waveform at 3.4 GHz
+
+![KSA Critical Inputs 3.4GHz](./figures/KSA Critical Input Pair 3.4GHz.png)
 
 7. **Propagation Delay Graph**
 
 Shows delay vs. input transition pairs.
+
+![KSA Transient](./figures/KSA_transient.png)
 
 8. **Performance Summary Table**
 
@@ -85,9 +102,13 @@ Compares KSA vs RCA in terms of delay, energy, transistor count, etc.
 
 _Includes DFFs and PWL inputs to capture glitch resilience._
 
+![KSA TB](./figures/KSA_TB.png)
+
 - Gate-Level RTL Schematic
 
 Captured layout view of the synthesized adder.
+
+![KSA RTL Level](./figures/KSA_RTL.png)
 
 ## Future Improvements
 - Explore dynamic logic styles to further minimize propagation delay.
