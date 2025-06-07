@@ -69,7 +69,7 @@ _Allows alternating stages to cancel inversions._
 
 _Produces initial P and G signals from input bits A and B._
 
-![PG Cell](./figures/KSA_PG_cell.png)
+![KSA PG Cell](./figures/KSA_PG.png)
 
 5. **Complete 8-bit Kogge-Stone Adder**
 
