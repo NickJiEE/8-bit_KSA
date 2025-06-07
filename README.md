@@ -89,7 +89,7 @@ _Full adder assembled using all cell types._
 
 7. **Propagation Delay Graph**
 
-Shows delay vs. input transition pairs.
+_Shows delay vs. input transition pairs._
 
 ![KSA Transient](./figures/KSA_transient.png)
 
@@ -108,7 +108,7 @@ _Includes DFFs and PWL inputs to capture glitch resilience._
 
 - Gate-Level RTL Schematic
 
-Captured layout view of the synthesized adder.
+_Captured layout view of the synthesized adder._
 
 ![KSA RTL Level](./figures/KSA_RTL.png)
 
