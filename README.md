@@ -81,11 +81,11 @@ _Full adder assembled using all cell types._
 
   - (a) Ripple-Carry Adder waveform at 3.4 GHz
 
-![RCA Critical Inputs 3.4GHz](./figures/RCA Critical Input Pair 3.4GHz.png)
+![RCA Critical Inputs 3.4GHz](./figures/RCA Critical Input Pair.png)
 
   - (b) 8-bit KSA waveform at 3.4 GHz
 
-![KSA Critical Inputs 3.4GHz](./figures/KSA Critical Input Pair 3.4GHz.png)
+![KSA Critical Inputs 3.4GHz](./figures/KSA Critical Input Pair.png)
 
 7. **Propagation Delay Graph**
 
