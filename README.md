@@ -81,11 +81,11 @@ _Full adder assembled using all cell types._
 
   - (a) Ripple-Carry Adder waveform at 3.4 GHz
 
-![RCA Critical Inputs 3.4GHz](./figures/RCA Critical Input Pair.png)
+![RCA Critical Inputs 3.4GHz](./figures/RCA_critical_input_pair.png)
 
   - (b) 8-bit KSA waveform at 3.4 GHz
 
-![KSA Critical Inputs 3.4GHz](./figures/KSA Critical Input Pair.png)
+![KSA Critical Inputs 3.4GHz](./figures/KSA_critical_input_pair.png)
 
 7. **Propagation Delay Graph**
 
@@ -95,7 +95,9 @@ Shows delay vs. input transition pairs.
 
 8. **Performance Summary Table**
 
-Compares KSA vs RCA in terms of delay, energy, transistor count, etc.
+Compares KSA vs RCA in terms of delay, energy, maximum clocking frequency, etc.
+
+![Summary Table](./figures/KSA_summary.png)
 
 ## Additional Assets
 - **Dynamic Testbench Schematic**
@@ -116,7 +118,7 @@ Captured layout view of the synthesized adder.
 - Continue transistor sizing optimization for better power-delay tradeoffs.
 
 ## References
-- Ramasamy, Senthil G. “Design and Analysis of Kogge-Stone and Han-Carlson Adders in 130nm CMOS Technology”. International Journal of Research, Vol. 05(07), 2018.
+- Ramasamy, Senthil G. “Design and Analysis of Kogge-Stone and Han-Carlson Adders in 130nm CMOS Technology”. International Journal of Research, Vol. 05(07), 2018. [Link to Paper](https://www.researchgate.net/publication/344955631_Design_and_Analysis_of_Kogge-Stone_and_Han-Carlson_Adders_in_130nm_CMOS_Technology)
 
 © 2025 Nick Ji
 
