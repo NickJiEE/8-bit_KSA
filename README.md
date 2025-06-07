@@ -22,7 +22,7 @@ This project implements an 8-bit parallel-prefix adder using the Kogge-Stone arc
   - AND logic for generate
 
 - **Black Cell Variants**
-  - _Standard Black Cell_: Computes ```Gi:j = Gi + PiGj and Pi:j = Pi ⋅ Pj```
+  - _Standard Black Cell_: Computes ```Gi:j = Gi + Pi ⋅ Gj``` and ```Pi:j = Pi ⋅ Pj```
   - _Non-Inverting Input Black Cell_: Produces inverted outputs
   - _Inverting Input Black Cell_: Produces non-inverted outputs
 
